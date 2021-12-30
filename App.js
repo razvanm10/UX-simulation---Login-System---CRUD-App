@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react";
 import axios from "axios";
 import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-router-dom';
+
 // Components
 import Account from "./Components/Account";
 import FormRegister from "./Components/FormRegister";
@@ -12,7 +13,7 @@ import passwordIsWeakMediumStrong from "./Functions/PasswordValidation";
 import emailValidation from "./Functions/EmailValidation";
 import emailIsAlreadyUsed from "./Functions/EmailIsUsed";
 
-// emailsArray
+
 
 
 const baseURL = "http://localhost:5000"; // server-side
